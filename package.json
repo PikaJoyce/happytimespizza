@@ -1,0 +1,32 @@
+{
+  "name": "happytimespizza",
+  "version": "1.0.0",
+  "description": "Implementing programmable voice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest server/index.js",
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PikaJoyce/happytimespizza.git"
+  },
+  "author": "Joyce Ma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PikaJoyce/happytimespizza/issues"
+  },
+  "homepage": "https://github.com/PikaJoyce/happytimespizza#readme",
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.2",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "twilio": "^3.34.0"
+  }
+}
